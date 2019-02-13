@@ -2,6 +2,6 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-graphic',
-  templateUrl: './graphic.component.html'
+  templateUrl: './graphics.component.html'
 })
-export class GraphicComponent { }
+export class GraphicsComponent { }

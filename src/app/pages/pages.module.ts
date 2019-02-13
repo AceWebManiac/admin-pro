@@ -5,7 +5,7 @@ import { RouterModule } from '@angular/router';
 import { SharedModule } from '../shared/shared.module';
 
 import { PagesComponent } from './pages.component';
-import { GraphicComponent } from './graphic/graphic.component';
+import { GraphicsComponent } from './graphics/graphics.component';
 import { ProgressComponent } from './progress/progress.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 
@@ -13,7 +13,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 @NgModule({
   declarations: [
     PagesComponent,
-    GraphicComponent,
+    GraphicsComponent,
     ProgressComponent,
     DashboardComponent
   ],
