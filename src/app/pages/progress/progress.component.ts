@@ -4,4 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-progress',
   templateUrl: './progress.component.html'
 })
-export class ProgressComponent { }
+export class ProgressComponent {
+  percentage1: number = 30;
+  percentage2: number = 20;
+}
