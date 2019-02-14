@@ -1,14 +1,13 @@
 <div class="row">
-  <div class="col-6">
+  <div class="col-6" *ngFor="let grafico of graficos">
     <div class="card">
       <div class="card-body">
-        <div style="display: block">
-          <canvas baseChart
-                  [data]="doughnutChartData"
-                  [labels]="doughnutChartLabels"
-                  [chartType]="doughnutChartType">
-          </canvas>
-        </div>
+        <h4 class="card-title">{{grafico.leyenda}}</h4>
+        <app-doughnut
+          [chartData]="grafico.data"
+          [chartLabels]="grafico.labels"
+          [chartType]="grafico.type">
+        </app-doughnut>
       </div>
     </div>
   </div>
