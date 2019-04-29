@@ -10,19 +10,23 @@ import { PagesComponent } from './pages.component';
 import { GraphicsComponent } from './graphics/graphics.component';
 import { ProgressComponent } from './progress/progress.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { AccountSettingComponent } from './account-setting/account-setting.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
     PagesComponent,
     GraphicsComponent,
     ProgressComponent,
-    DashboardComponent
+    DashboardComponent,
+    AccountSettingComponent
   ],
   imports: [
     CustomComponentsModule,
     CommonModule,
     FormsModule,
     PagesRouting,
+    RouterModule,
     SharedModule
   ]
 })
